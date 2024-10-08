@@ -933,13 +933,14 @@ aside .pages {
 
 .logoipsum img {
     width: 100%;
+    height: auto;
     margin: 0 auto;
 }
 
 
 .logoipsum .hr1 {
     opacity: 1;
-    height: 2px;
+    height: auto;
     rotate: 90deg;
     width: 60px;
     margin: 0 auto 50px auto;
@@ -948,7 +949,7 @@ aside .pages {
 
 .logoipsum .hr2 {
     opacity: 1;
-    height: 2px;
+    height: auto;
     rotate: 90deg;
     width: 60px;
     margin: 70px auto 0 auto;
