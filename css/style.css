@@ -813,6 +813,13 @@ aside .pages {
     text-transform: math-auto;
 }
 
+}
+
+.hero h15 {
+    color: #000000;
+    text-transform: math-auto;
+}
+
 .center-btn {
     gap: 1.5rem;
     margin-top: 1rem;
@@ -933,14 +940,14 @@ aside .pages {
 
 .logoipsum img {
     width: 100%;
-    height: auto;
     margin: 0 auto;
+    height: auto;
 }
 
 
 .logoipsum .hr1 {
     opacity: 1;
-    height: auto;
+    height: 2px;
     rotate: 90deg;
     width: 60px;
     margin: 0 auto 50px auto;
@@ -949,7 +956,7 @@ aside .pages {
 
 .logoipsum .hr2 {
     opacity: 1;
-    height: auto;
+    height: 2px;
     rotate: 90deg;
     width: 60px;
     margin: 70px auto 0 auto;
@@ -1667,6 +1674,13 @@ aside .pages {
     padding: 120px 0 0 0;
 }
 
+.team1 {
+    background-image: url("../images/experience_bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    padding: 15px 0 0 0;
+}
+
 #team {
     background-image: url("../images/experience_bg.jpg");
     background-size: cover;
@@ -2192,6 +2206,7 @@ footer form button:hover {
 /* ====== End of 1.14. Footer section ====== */
 
 
+
 /* ====== End of 6.1. 404 / Coming Soon page ====== */
 
 .coming-soon {
@@ -2233,10 +2248,70 @@ footer form button:hover {
 
 
 
+/* button back to top */
 
+/* Ensuring the team section starts immediately after header */
+header + .team-section {
+    margin-top: 0;
+    padding-top: 0;
+}
 
+/* Team Section Styles */
+.team-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: transparent;
+    padding: 50px 0;
+}
 
+.team-member {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
+.team-member img {
+    width: 215px;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    /* Make the photo square, no border-radius */
+    border-radius: 0;
+}
+
+.team-member h15 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #555;
+}
+
+.social-icons a:hover {
+    color: #000;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .team-section {
+        flex-direction: column;
+    }
+}
+
+/* team section */
 
 
 
